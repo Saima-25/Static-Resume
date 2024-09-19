@@ -1,0 +1,133 @@
+header{
+    text-align: center;
+}
+body 
+{
+    width: 210mm; 
+    height: 120mm; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20;
+    padding:20;
+    background-size: 50% 100%;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    
+}
+/* .profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.degree {
+    flex: 1 1 20%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center; 
+}
+.degree h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center; 
+}
+.degree ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+.degree ul li {
+    margin: 5px 0;
+    text-align: center; 
+}
+.work-experience {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center; 
+}
+.experience-item {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center; 
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #610b0567;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #cc5252;
+}
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.circle {
+    width: 85px;
+    height: 85px;
+    background-color: #ffffff;
+    border: 4px solid #4ca3af;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+.hidden {
+    display: none;
+  }
